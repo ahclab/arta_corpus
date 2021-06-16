@@ -2,6 +2,8 @@
 This repository contains a Japanese corpus used in the following paper:  
 Shohei Tanaka, Koichiro Yoshino, Katsuhito Sudoh, Satoshi Nakamura. ``ARTA: Collection and Classification of Ambiguous Requests and Thoughtful Actions'', The 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL), July, 2021, Singapore  
 <!-- https://www.aclweb.org/anthology/W19-4106/ -->
+https://arxiv.org/abs/2106.07999
+
 
 ## Data Format
 The corpus containing 27,230 user requests has been split into train.json:valid.json:test.json = 24,430:1,400:1,400.
@@ -26,24 +28,15 @@ ARTA Corpus is licensed under a
 If not, see <https://creativecommons.org/licenses/by/4.0/legalcode>   -->
 
 ## Citation
-<!-- Please cite the following paper when you use the corpus. -->
-TBA
+Please cite the following paper when you use the corpus.
 
-<!-- ```
-@inproceedings{tanaka-etal-2019-conversational,
-    title = "Conversational Response Re-ranking Based on Event Causality and Role Factored Tensor Event Embedding",
-    author = "Tanaka, Shohei  and
-      Yoshino, Koichiro  and
-      Sudoh, Katsuhito  and
-      Nakamura, Satoshi",
-    booktitle = "Proceedings of the First Workshop on NLP for Conversational AI",
-    month = aug,
-    year = "2019",
-    address = "Florence, Italy",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/W19-4106",
-    doi = "10.18653/v1/W19-4106",
-    pages = "51--59",
-    abstract = "We propose a novel method for selecting coherent and diverse responses for a given dialogue context. The proposed method re-ranks response candidates generated from conversational models by using event causality relations between events in a dialogue history and response candidates (e.g., {``}be stressed out{''} precedes {``}relieve stress{''}). We use distributed event representation based on the Role Factored Tensor Model for a robust matching of event causality relations due to limited event causality knowledge of the system. Experimental results showed that the proposed method improved coherency and dialogue continuity of system responses.",
+``` text
+@misc{tanaka2021arta,
+      title={ARTA: Collection and Classification of Ambiguous Requests and Thoughtful Actions}, 
+      author={Shohei Tanaka and Koichiro Yoshino and Katsuhito Sudoh and Satoshi Nakamura},
+      year={2021},
+      eprint={2106.07999},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
-``` -->
+```
