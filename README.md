@@ -15,6 +15,16 @@ Each line is a json format dictionary contains following keys.
 - **category**: system action category
 - **multilabel**: additional system action categories (only the test data and a part of valid data contains this key.)
 
+## License
+ARTA Corpus (c) by Shohei Tanaka, Koichiro Yoshino, Katsuhito Sudoh, Satoshi Nakamura  
+Copyright (c) 2021- Augmented Human Communication Laboratory, Nara Institute of Science and Technology
+
+ARTA Corpus is licensed under a  
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+<!-- You should have received a copy of the license along with this work.  
+If not, see <https://creativecommons.org/licenses/by/4.0/legalcode>   -->
+
 ## Citation
 <!-- Please cite the following paper when you use the corpus. -->
 TBA
